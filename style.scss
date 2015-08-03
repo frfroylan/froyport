@@ -1,27 +1,49 @@
 
 * {
-
 	margin: 0;
 	padding: 0;
-
 }
 
-
 body {
-	background-color: #333;
-	font-family: 'Roboto Condensed', sans-serif;
+	font-family: Jura, open-sans;
 	letter-spacing: 2px;
 	line-height: 3px;
 	color:black;
 }
 
-.col-lg-4 {
-
-	background-color: grey;
+h1 {
+	font-size: 104px;
+	display: inline-block;
+	line-height: 10px;
+	color: #27ae60;	
 }
 
-.col-lg-8 {
-
-	background-color: lightgrey;
+h2 {
+	font-size: 32px;
+	font-weight: bold;
+	display: inline-block;
 }
+
+h4{
+	padding-left: 2em;
+	font-weight: bold;
+}
+
+hr{
+	height: 1px;
+	background-color: black;
+}
+
+a {
+	color: #27ae60;
+}
+
+.name{
+	margin-top: 60px;
+	margin-left: 40px;
+}
+
+
+
+
 
